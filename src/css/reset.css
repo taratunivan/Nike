@@ -22,3 +22,23 @@ h6 {
     font-size: inherit;
     font-weight: inherit;
 }
+
+.header-nav-list {
+    font-weight: 300px;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.header-main-text {
+    background-image: url(/src/img/Group1.png);
+    height: 858px;
+    background-repeat: no-repeat;
+}
+
+/* Main */
+.main {
+    background-image: url(/src/img/Group81.png);
+    height: 606px;
+}
