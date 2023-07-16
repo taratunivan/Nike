@@ -131,5 +131,148 @@ button {
     height: 240px;
 }
 
-/* Main-footer */
+/* Rewiew-main */
+.reviews-title {
+    width: 175px;
+    height: 65px;
+    padding-top: 25px;
+    padding-left: 633px;
+    padding-bottom: 24px;
+}
+
+.rewiew-data {
+    display: block;
+}
+
+.rewiew-cards {
+    display: flex;
+    
+}
+
+/* card-rewiew-1 */
+.rewiew-card-1 {
+    width: 255px;
+    height: 292px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.50%, #CC5EC2 100%);
+    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+    margin-bottom: 114px;
+    margin-left: 244px;
+}
+
+.rewiew-comment-1 {
+    width: 228px;
+    font-size: 24px;
+    padding-left: 13px;
+    padding-top: 49px;
+}
+
+.rewiew-data-1 {
+    color: #D8D8D8;
+    font-size: 14px;
+    padding: 169px 206px 107px 13px;
+}
+
+.user-info-1 > h4 {
+    font-size: 14px;
+    padding-left: 49px; 
+    padding-bottom: 1px;
+}
+
+.user-info-1 > p {
+    color: #D8D8D8;
+    font-size: 12px;
+    padding-left: 49px;
+    padding-bottom: 29px;
+    padding-top: 0px;
+} 
+
+.user-photo-1 {
+    border-radius: 31px;
+    padding-left: 12px;
+}
+
+/* rewiews-card-2 */
+
+.rewiew-card-2 {
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+    margin-left: 93px;
+    margin-right: 93px;
+}
+
+.rewiew-comment-2 {
+    width: 228px;
+    font-size: 24px;
+    padding-left: 18px;
+    padding-top: 49px;
+}
+
+.rewiew-data-2 {
+    color: #D8D8D8;
+    font-size: 14px;
+    padding: 169px 201px 107px 18px;
+}
+
+.user-info-2 > h4 {
+    font-size: 14px;
+    padding-left: 54px;
+}
+
+.user-info-2 > p {
+    color: #D8D8D8;
+    font-size: 12px;
+    padding-left: 54px;
+    padding-bottom: 29px;
+    padding-top: 0px;
+}
+
+.user-photo-2 {
+    border-radius: 31px;
+    padding-left: 18px;
+}
+
+/* rewiew-card-3 */
+.rewiew-card-3 {
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;    
+}
+
+.rewiew-comment-3 {
+    width: 228px;
+    font-size: 24px;
+    padding-left: 18px;
+    padding-top: 49px;
+}
+
+.rewiew-data-3 {
+    color: #D8D8D8;
+    font-size: 14px;
+    padding: 169px 201px 107px 18px;
+}
+
+.user-info-3 > h4 {
+    font-size: 14px;
+    padding-left: 54px;
+}
+
+.user-info-3 > p {
+    color: #D8D8D8;
+    font-size: 12px;
+    padding-left: 54px;
+    padding-bottom: 29px;
+    padding-top: 0px;
+}
+
+.user-photo-3 {
+    border-radius: 31px;
+    padding-left: 18px;
+}
 

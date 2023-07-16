@@ -1,18 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
 }
-
 ul {
     list-style: none;
 }
-
 a {
     text-decoration: none;
     color: inherit;
 }
-
 h1,
 h2,
 h3,
@@ -38,7 +34,13 @@ a:hover {
 }
 
 /* Main */
-.main {
+.main-text-img {
     background-image: url(/src/img/Group81.png);
     height: 606px;
+}
+
+/* main-footer */
+.Reviews {
+    background-image: url(/src/img/Reviews-img.png);
+    height: 520px;
 }

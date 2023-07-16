@@ -1,5 +1,5 @@
 body {
-    width: 1440px;
+    width: 1405px;
     height: 93px;
     margin: auto;
     font-family: 'Roboto', sans-serif;
@@ -19,3 +19,7 @@ body {
 }
 
 /* Main */
+.reviews-title {
+    font-family: Playfair Display;
+    font-size: 48px;
+}
