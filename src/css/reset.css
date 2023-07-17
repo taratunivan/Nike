@@ -30,6 +30,8 @@ a:hover {
 }
 
 .header-main-text {
+    display: flex;
+    justify-content: center;
     background-image: url(/src/img/Group1.png);
     height: 858px;
     background-repeat: no-repeat;
@@ -55,4 +57,9 @@ a:hover {
     height: 509px;
 }
 
+/* footer */
+footer {
+    height: 292px;
+    background: #021635;
+}
 
