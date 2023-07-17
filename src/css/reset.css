@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
 ul {
     list-style: none;
 }
+
 a {
     text-decoration: none;
     color: inherit;
@@ -41,6 +43,16 @@ a:hover {
 
 /* main-footer */
 .Reviews {
-    background-image: url(/src/img/Reviews-img.png);
+    background-image: url(/src/img/цветы21.png), url(/src/img/Reviews-img.png);
     height: 520px;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
 }
+
+/* Order-footer */
+.order-section {
+    background-image: url(/src/img/Order.png);
+    height: 509px;
+}
+
+
