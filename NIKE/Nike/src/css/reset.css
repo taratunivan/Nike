@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.header-nav-list {
+    font-weight: 300px;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.header-main-text {
+    display: flex;
+    justify-content: center;
+    background-image: url(/src/img/Group1.png);
+    height: 858px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Main */
+
+
+/* main-footer */
+.reviews {
+    background-image: url(/src/img/цветы21.png), radial-gradient(circle at right bottom,rgb(15, 140, 175) 15%,#012d6350 35%);
+    height: 520px;
+    background-color: #001c3e;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-size: contain;
+}
+
+/* Order-footer */
+.order-section {
+    background-image: url(/src/img/Order.png);
+    height: 509px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* footer */
+footer {
+    height: 292px;
+    background: #021635;
+}
+
