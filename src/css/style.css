@@ -1,22 +1,24 @@
 /* Header */
-
-.header-nav {
-    display: flex;
-    background-size: cover;
+.header {
     background: #012D63;
 }
 
-.header-logo {
+.header-nav {
     display: flex;
-    box-sizing: border-box;
-    margin: 16px 152px 14px 168px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 1110px;
+    margin: 0 auto;
+    background-size: cover;
 }
 
 .header-nav-list {
     color: #C7C7C7;
     justify-content: space;
     display: flex;
-    font-size: 15px;
+    font-size: 19px;
     gap: 29px;
     margin: auto;
 }
@@ -25,10 +27,8 @@
     color: #C7C7C7;
     justify-content: space;
     display: flex;
-    padding: 30px 165px 33px;
-    font-size: 15px;
+    font-size: 19px;
     gap: 5px;
-    margin: auto;
 }
 
 .logo-2 {
@@ -55,7 +55,9 @@
 .Dream-nike {
     display: flex;
     font-size: 72px;
+    padding-right: 700px;
     padding-left: 30px;
+    width: 550px;
 }
 
 p {
@@ -82,84 +84,71 @@ p {
 }
 
 /* Main */
-.container {    
+.advantages {
+    background-image: url(/src/img/Group81.png);
+    background-size: cover;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    padding: 105px 0px;
+}
+
+.advantages-container {    
     display: flex;
-    justify-content: center;
     margin: auto;
+    justify-content: space-between;
+    padding: 25px 0px 20px;
     width: 1110px;
-    height: 396px;
     border: solid 5px #8E32C6;
 }
+
 /* card-1 */
-.card_1 {
-    padding-right: 90px;
-    padding-top: 15px;
-    padding-bottom: 25px;
+.image_1 {
+    padding: 0px 0px 25px 50px;
 }
 
 .text_1 {
+    padding: 25px 0px 0px 91px;
     text-align: center;
-    width: 159px;
-    height: 102px;
     font-family: Playfair Display;
     font-size: 36px;
-    padding-left: 40px;
     padding-top: 10px;
-}
-
-.image_1 {
-    width: 240px;
-    height: 240px;
+    width: 159px;
 }
 
 /* card-2 */
-.card_2 {
-    padding-top: 25px;
-    padding-left: 35px;
+.image_2 {
+    padding: 25px 0px 0px 0px;
 }
 
 .text_2 {
     text-align: center;
-    width: 161px;
-    height: 102px;
     font-family: Playfair Display;
+    padding-left: 50px;
     font-size: 36px;
-    padding-top: 0px;
-    padding-bottom: 19px;
-    padding-left: 55px;
-}
-
-.image_2 {
-    width: 240px;
-    height: 240px;
+    width: 161px;
 }
 
 /* card-3 */
-.card_3 {
-    padding-bottom: 25px;
-    padding-left: 90px;
+.image_3 {
+    padding-right: 50px;
 }
 
 .text_3 {
-    text-align: center;
     width: 151px;
-    height: 103px;
+    padding: 22px 0px 0px 0px;
+    padding-left: 50px;
+    text-align: center;
     font-family: Playfair Display;
     font-size: 36px;
-}
-
-.image_3 {
-    width: 240px;
-    height: 240px;
 }
 
 /* Rewiew-main */
 .reviews-title {
+    margin: 0 auto;
     width: 175px;
     height: 65px;
     padding-top: 25px;
-    padding-left: 633px;
-    padding-bottom: 24px;
+    padding-bottom: 25px;
 }
 
 .rewiew-data {
@@ -168,19 +157,17 @@ p {
 
 .rewiew-cards {
     display: flex;
-    
 }
 
 /* card-rewiew-1 */
 .rewiew-card-1 {
+    margin: auto;
     width: 255px;
     height: 292px;
     flex-shrink: 0;
     border-radius: 15px;
     background: linear-gradient(135deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.50%, #CC5EC2 100%);
     box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
-    margin-bottom: 114px;
-    margin-left: 244px;
 }
 
 .rewiew-comment-1 {
@@ -222,13 +209,12 @@ p {
 /* rewiews-card-2 */
 
 .rewiew-card-2 {
+    margin: auto;
     width: 255px;
     height: 292px;
     border-radius: 15px;
     background: linear-gradient(135deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
     box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
-    margin-left: 93px;
-    margin-right: 93px;
 }
 
 .rewiew-comment-2 {
@@ -269,6 +255,7 @@ p {
 
 /* rewiew-card-3 */
 .rewiew-card-3 {
+    margin: auto;
     width: 255px;
     height: 292px;
     border-radius: 15px;
@@ -314,121 +301,133 @@ p {
 
 /* Order-footer */
 .title-order {
-    padding-left: 655px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
     padding-top: 10px;
 }
 
 .emil {
-    width: 50%;
+    display: flex;
+    margin: auto;
+    width: 690px;
     height: 60px;
     border-radius: 50px;
     font-size: 28px;
-    margin-top: 10px;
-    margin-left: 375px;
+    margin-top: 33px;
+    margin-bottom: 19px;
 }
 
 .country {
+    display: flex;
+    margin: auto;
     width: 580px;
     height: 50px;
+    margin-top: 19px;
     border-radius: 50px;
-    margin-left: 430px;
+    margin-top: 0px;
 }
 
 .city {
+    display: flex;
+    margin: auto;
     width: 580px;
     height: 50px;
+    margin-top: 19px;
     border-radius: 50px;
-    margin-left: 430px;
 }
 
 
 .adress {
+    display: flex;
+    margin: auto;
     width: 580px;
     height: 50px;
+    margin-top: 19px;
+    margin-bottom: 19px;
     border-radius: 50px;
-    margin-left: 430px;
 }
 
-.button {
+.button-order {
+    display: flex;
+    margin: auto;
     width: 248px;
     height: 68px;
-    margin-left: 596px;
-    margin-bottom: 30px;
     border-radius: 16px;
     cursor: pointer;
     background: #8E32C6;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
     color: #FFF;
-    text-align: center;
     font-size: 24px;
     line-height: 30px;
 }
 
+.button-text {
+    padding: 20px 0 20px 48px;
+}
+
 /* footer */
-.white{
-    width: 1110px;
-    height: 1px;
-    background: #9B9B9B;
-    margin-left: 165px;
-    margin-top: 20px;
-    margin-bottom: 123px;
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
-/* container-1 */
-.element-1 {
-    padding-left: 165px;
-    padding-top: 45px;
+/* footer-container-1 */
+
+.elem-of-container-1 {
+    padding: 45px 0px 10px 165px;
+    font-size: 23px;
 }
 
-.element-2 {
-    padding-left: 165px;
-    padding-top: 10px;
+.elem-of-container-2 {
+    padding: 0px 0px 0px 165px;
+    font-size: 23px;
 }
 
-.element-3 {
-    padding-left: 165px;
-    padding-top: 10px;
+.elem-of-container-3 {
+    padding: 10px 0px 0px 165px;
+    font-size: 23px;
 }
 
-/* container-2 */
-.container-2 {
-    margin-left: 210px;
+/* footer-container-2 */
+
+.elem-of-container_1 {
+    text-align: end;
+    padding: 45px 164px 10px;
+    font-size: 23px;
 }
 
-.element_1 {
-    text-align: right;
-    padding-left: 164px;
-    padding-top: 45px;
+.elem-of-container_2 {
+    text-align: end;
+    padding: 0px 164px 10px;
+    font-size: 23px;
 }
 
-.element_2 {
-    text-align: right;
-    padding-left: 164px;
-    padding-top: 10px;
-}
-
-.element_3 {
-    text-align: right;
-    padding-left: 164px;
-    padding-top: 10px;
+.elem-of-container_3 {
+    text-align: end;
+    padding: 0px 164px;
+    font-size: 23px;
 }
 
 /* Продовження footer */
+.footer-down {
+    margin: 20px 165px 0px 165px;
+    height: 1px;
+    background: #9B9B9B;
+}
 
-.data-cretion {
-    content: "";
-    background-image: url(/src/img/nike_2.png), url(/src/img/С&R_2.png);
-    background-position: 100% 100%;
+.footer-2022-colorawe {
+    background-image:  url(/src/img/С&R_2.png), url(/src/img/nike_2.png);
     background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
-
-.reserved {
+.footer-colorawe {
+    padding: 24px 0px 7px;
     font-size: 18px;
-    padding-top: 24px;
 }
 
-.stated {
+.states {
     font-size: 18px;
-    padding-top: 7px;
 }

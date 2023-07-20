@@ -34,27 +34,29 @@ a:hover {
     justify-content: center;
     background-image: url(/src/img/Group1.png);
     height: 858px;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 /* Main */
-.main-text-img {
-    background-image: url(/src/img/Group81.png);
-    height: 606px;
-}
+
 
 /* main-footer */
-.Reviews {
-    background-image: url(/src/img/цветы21.png), url(/src/img/Reviews-img.png);
+.reviews {
+    background-image: url(/src/img/цветы21.png), radial-gradient(circle at right bottom,rgb(15, 140, 175) 15%,#012d6350 35%);
     height: 520px;
+    background-color: #001c3e;
     background-repeat: no-repeat;
     background-position: 0% 100%;
+    background-size: contain;
 }
 
 /* Order-footer */
 .order-section {
     background-image: url(/src/img/Order.png);
     height: 509px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* footer */
