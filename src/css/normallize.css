@@ -1,5 +1,4 @@
 body {
-    height: 93px;
     margin: auto;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -17,13 +16,8 @@ body {
     font-size: 48px;
 }
 
-/* Main */
-.reviews-title {
-    font-family: Playfair Display;
-    font-size: 48px;
-}
-
-/* Order-footer */
+/* Main and Order-footer */
+.reviews-title,
 .title-order {
     font-family: Playfair Display;
     font-size: 48px;
@@ -36,11 +30,7 @@ input {
 }
 
 /* footer */
-.container-1,
-.container-2 {
+.footer-container-1,
+.footer-container-2 {
     font-size: 24px;
-}
-
-.section-footer {
-    display: flex;
 }
