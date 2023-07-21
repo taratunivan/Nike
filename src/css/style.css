@@ -458,12 +458,17 @@ footer {
 }
 
 .footer-2022-colorawe {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-2022-colorawe::after {
     content: "";
-    background-image:  url(/src/img/nike_2.png), url(/src/img/c&r_2.png);
+    width: 108px;
+    height: 90px;
+    background-image:  url(/src/img/nike_2.svg), url(/src/img/c&r_2.png);
     background-repeat: no-repeat;
-    background-position: top, bottom;
-    background-position-x: right;
+    background-position: center top, center bottom;
 }
 
 .footer-colorawe {
