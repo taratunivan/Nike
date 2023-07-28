@@ -1,4 +1,4 @@
-/* Header */
+/* header */
 .header {
     color: #C7C7C7;
     background: #012D63;
@@ -49,7 +49,7 @@
     width: 160px;
     height: 120px;
     display: block;
-    background-image: url(/src/img/nike.png), url(/src/img/c&r.png);
+    background-image: url(/src/img/nike.svg), url(/src/img/c&r.svg);
     background-position: top, bottom;
     background-repeat: no-repeat;
 }
@@ -91,9 +91,9 @@
     line-height: 30px;
 }
 
-/* Main */
+/* main */
 .advantages {
-    background-image: url(/src/img/group81.jpg);
+    background-image: url(/src/img/group81.png);
     background-size: cover;
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -150,7 +150,7 @@
     font-size: 36px;
 }
 
-/* Rewiew-main */
+/* rewiew-main */
 .reviews {
     background-image: url(/src/img/flower.png), radial-gradient(circle at right bottom,rgb(15, 140, 175) 15%,#012d6350 35%);
     height: 520px;
@@ -175,6 +175,7 @@
 
 .rewiew-cards {
     display: flex;
+    margin: 0 auto;
 }
 
 /* card-rewiew-1 */
@@ -182,6 +183,7 @@
     margin: 0 auto;
     width: 255px;
     height: 292px;
+    
     flex-shrink: 0;
     border-radius: 15px;
     background: linear-gradient(135deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.50%, #CC5EC2 100%);
@@ -316,7 +318,7 @@
     padding-left: 18px;
 }
 
-/* Order-footer */
+/* order-footer */
 .order-container {
     margin: 0 auto;
     background-image: url(/src/img/order.jpg);
@@ -466,7 +468,7 @@ footer {
     content: "";
     width: 108px;
     height: 90px;
-    background-image:  url(/src/img/nike_2.svg), url(/src/img/c&r_2.png);
+    background-image:  url(/src/img/nike_2.svg), url(/src/img/c&r_2.svg);
     background-repeat: no-repeat;
     background-position: center top, center bottom;
 }
